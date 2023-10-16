@@ -1,0 +1,25 @@
+---
+name: Update Github Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-resume:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: "write"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: |
+          nix build . -L
+      - run: |
+          mkdir -p dist/ && cp -v result/* dist/
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

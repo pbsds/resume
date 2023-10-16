@@ -29,8 +29,7 @@
         #builder = jsonresume-nix.packages.${system}.resumed-stackoverflow;
         default = pkgs.runCommand "resume" {} ''
           ln -s ${./resume.toml} resume.toml
-          ls
-          ${self.packages.${system}.builder}
+          HOME=$(mktemp -d) ${self.packages.${system}.builder}
           mkdir $out
           cp -v resume.html $out/index.html
           cp -v ${./me.jpg} $out/me.jpg
