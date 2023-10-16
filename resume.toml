@@ -1,0 +1,215 @@
+"$schema" = "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+
+[basics]
+email = "pbsds@hotmail.com"
+image = "./me.jpg"
+label = "Programmer, Researcher"
+name = "Peder Bergebakken Sundt"
+#phone = "(+47) "
+summary = "Peder is a Norwegian pythonista with interest in AI, networking, systems and web development, reproducible package management, and declarative system configuration. He is currently researching neural fields at NTNU, and regularly submits tweaks and fixes to various open source projects."
+url = "https://pbsds.net"
+
+  [basics.location]
+  #address = ""
+  #postalCode = ""
+  city = "Trondheim"
+  region = "Trøndelag"
+  countryCode = "NO"
+
+  [[basics.profiles]]
+  network = "GitHub"
+  url = "//github.com/pbsds"
+  username = "pbsds"
+
+  [[basics.profiles]]
+  network = "LinkedIn"
+  url = "//www.linkedin.com/in/peder-bergebakken-sundt-181a4b94/"
+  username = "Peder B. Sundt"
+
+  [[basics.profiles]]
+  network = "Twitter"
+  url = "//twitter.com/pederpbsds"
+  username = "pederpbsds"
+
+  [[basics.profiles]]
+  network = "Mastodon"
+  url = "//snabelen.no/@pbsds"
+  username = "@pbsds@snabelen.no"
+
+
+[[work]]
+name = "Norwegian University of Science and Technology (NTNU)"
+url = "//www.ntnu.edu/"
+position = "PhD Candidate"
+description = "Researcher"
+location = "Trondheim, NO"
+startDate = "2021-08"
+endDate = "2025-08"
+#highlights = []
+summary = ""
+
+#[[work]]
+#name = "NDC TechTown"
+#url = "//web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt"
+#position = "Workshop Holder"
+#description = "Speaker"
+#location = "Kongsberg, NO"
+##startDate = "2022-09"
+##endDate = "2023-09"
+## https://web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt
+#highlights = [
+#  "Python Proficiency - a 2-day course (2022, 2023)",
+#]
+
+
+[[work]]
+name = "Uninett"
+url = "https://uninett.no"
+position = "Intern, part-time Systems Developer"
+description = "Internship"
+location = "Trondheim, NO"
+startDate = "2019-06"
+endDate = "2020-08"
+highlights = [
+  "Working with Eduroam and EAP/RADIUS authentication, and .NET development.",
+]
+summary = "Uninett is the company responsible for Norway's National Research and Education Network. They develops and operate the national research network in Norway."
+
+[[work]]
+name = "Arm Norway"
+url = "https://careers.arm.com/norway-trondheim-office"
+position = "Hardware Intern"
+description = "Internship"
+location = "Trondheim, NO"
+startDate = "2018-06"
+endDate = "2018-08"
+highlights = [
+  "Set up internal tooling and CI flows to run on their HPC infrastructure.",
+]
+summary = "Arm Norway works with Arm' Cambridge and Austin design centres to develop graphics processing units for OpenGL, OpenGL ES, DirectX and Vulkan three-dimensional rendering, with emphasis on low electric power consumption, suitable for use in portable devices like mobile phones. Their products are marketed under the Mali brand."
+
+[[work]]
+name = "Telenor Digital"
+url = "https://telenordigital.com"
+position = "Web developer Intern"
+description = "Internship"
+location = "Trondheim, NO"
+startDate = "2017-06"
+endDate = "2017-08"
+highlights = [
+  "Web development using their SSO solution and payment solutions.",
+]
+summary = "Telenor Digital developed the Payment portal and SSO system used in Telenor."
+
+
+[[volunteer]]
+startDate = "2015-09-05"
+endDate = "2021-10"
+organization = "Programvareverkstedet (PVV)"
+position = "Board Member, Chair Person and Operations Coordinator"
+summary = "Student organisation those with interest in computers"
+highlights = [
+  "Chair person for 1 year, from Oct 2016 to 2017",
+  "Board member 1 year prior and a half year following.",
+  "Operations coordinator for 6 years",
+]
+url = "http://pvv.ntnu.no/"
+
+
+[[education]]
+area = "Computer Science"
+courses = [
+  "TDT4900 - Computer Science, Master's Thesis",
+  "TDT4295 - Computer Design Project",
+]
+startDate = "2015-08"
+endDate = "2021-06"
+institution = "Norwegian University of Science and Technology (NTNU)"
+score = "B"
+studyType = "Masters"
+url = "//www.ntnu.edu/"
+
+[[awards]]
+awarder = "Eurographics Symposium on 3D Object Retrieval 2023 (3DOR'23)"
+date = "2023-09-01"
+title = "Best Paper Award"
+summary = "MARF: The Medial Atom Ray Field Object Representation"
+
+[[publications]]
+name = "MARF: The Medial Atom Ray Field Object Representation"
+publisher = "Computers & Graphics Vol 115"
+releaseDate = "2023-10-01"
+summary = "A novel ray-based neural object-centric shape representation enabling faster differentiable surface rendering."
+url = "https://doi.org/10.1016/j.cag.2023.06.032"
+
+
+# https://web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt
+
+[[skills]]
+keywords = [ "Nix", "Bash", "GnuMake", "Python" ]
+level = "Master"
+name = "Package management"
+
+[[skills]]
+keywords = [ "PyTorch", "COLMAP", "Trimesh" ]
+level = "Master"
+name = "Machine learning - Neural Fields"
+
+[[skills]]
+keywords = [ "C++", "Rust", "OpenGL" ]
+level = "Intermediate"
+name = "Graphics Development"
+
+[[languages]]
+language = "Norwegian"
+fluency = "Native speaker"
+
+[[languages]]
+language = "English"
+fluency = "Fluent"
+
+[[interests]]
+name = "Free Software"
+keywords = [ "Linux", "Software Freedom", "NixOS", "FreeBSD", "ZFS", "Reproducible Builds" ]
+
+[[interests]]
+name = "IRL"
+keywords = [ "Bouldering", "Cabin trips", "Board games" ]
+
+#[[references]]
+#name = "Erlich Bachman"
+#reference = "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+
+#[[projects]]
+#name = "nixpkgs contributor";
+#entity = "NixOS"
+#description = "Been using NixOS and been a package maintainer since 2022.";
+#keywords = ["ZFS", "Operating systems", "Package Management"]
+#roles = ["Package maintainer", "User"]
+#type = "maintainer"
+#highlights = [
+#  "Motivation and support to get support to build PHP composer packages in nixpkgs.",
+#]
+
+#description = "A mapping engine that misguides you"
+#endDate = "2016-08-24"
+#entity = "Smoogle"
+#highlights = [
+#  "Won award at AIHacks 2016",
+#  "Built by all women team of newbie programmers",
+#  "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+#]
+#keywords = [ "GoogleMaps", "Chrome Extension", "Javascript" ]
+#name = "Miss Direction"
+#roles = [ "Team lead", "Designer" ]
+#startDate = "2016-08-24"
+#type = "application"
+#url = "missdirection.example.com"
+
+[meta]
+canonical = "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
+lastModified = "2017-12-24T15:53:00"
+version = "v1.0.0"
+# Set default theme when fetching through
+# https://registry.jsonresume.org/<github-user-name>, see themes
+# here: https://jsonresume.org/themes/
