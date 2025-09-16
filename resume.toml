@@ -85,13 +85,13 @@ summary = "Uninett is the company responsible for Norway's National Research and
 [[work]]
 name = "Arm Norway"
 url = "https://careers.arm.com/norway-trondheim-office"
-position = "Hardware Intern"
+position = "Intern"
 description = "Internship"
 location = "Trondheim, NO"
 startDate = "2018-06"
 endDate = "2018-08"
 highlights = [
-  "Set up internal tooling and CI flows to run on their HPC infrastructure.",
+  "Set up internal tooling and CI flows for the hardware team to run on their HPC infrastructure.",
 ]
 summary = "Arm Norway works with Arm' Cambridge and Austin design centres to develop graphics processing units for OpenGL, OpenGL ES, DirectX and Vulkan three-dimensional rendering, with emphasis on low electric power consumption, suitable for use in portable devices like mobile phones. Their products are marketed under the Mali brand."
 
