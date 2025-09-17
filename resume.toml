@@ -185,13 +185,13 @@ keywords = [ "NixOS", "Arch", "Debian", "FreeBSD", "SaltStack", "Docker", "VMWar
 level = "Advanced"
 
 [[skills]]
-name = "Web Development"
-keywords = [ "Nginx", "FastAPI", "Jinja2", "OpenAPI", "HTML", "CSS", "Bootstrap", "Tailwind", "PostgreSQL", "TimescaleDB" ]
-level = "Intermediate"
+name = "System Development"
+keywords = [ "Python", "C++", "C#" ]
+level = "Advanced"
 
 [[skills]]
-name = "System Development"
-keywords = [ "C++", "C#", "Java" ]
+name = "Web Development"
+keywords = [ "Nginx", "FastAPI", "Jinja2", "OpenAPI", "HTML", "CSS", "Bootstrap", "Tailwind", "PostgreSQL", "TimescaleDB" ]
 level = "Intermediate"
 
 [[skills]]
