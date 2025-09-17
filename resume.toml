@@ -7,7 +7,7 @@ label = "Programmer, Researcher"
 name = "Peder Bergebakken Sundt"
 #phone = "(+47) "
 summary = """\
-    Peder is a Norwegian pythonista with interest in machine learning, graphics, networking, systems development, reproducible builds and package management, and declarative system configuration. \
+    Peder is a Norwegian pythonista with an early start and wide interest in computing, including machine learning, graphics, networking, systems development, reproducible package management and builds, and declarative system configuration and deployment. \
     He is currently researching neural fields at NTNU, and regularly submits tweaks and fixes to various open source projects. \
 """
 url = "https://pbsds.net"
@@ -42,17 +42,19 @@ url = "https://pbsds.net"
 
 [[work]]
 name = "Norwegian University of Science and Technology (NTNU)"
-url = "//www.ntnu.edu/"
+# url = "//www.ntnu.edu/"
+url = "//www.ntnu.edu/employees/peder.b.sundt"
 position = "PhD Candidate"
 description = "Researcher"
 location = "Trondheim, NO"
 startDate = "2021-08"
 endDate = "2025-09"
 highlights = [
-    "Conceptualized, researched and published 3 papers on 3D neural ray intersection fields.",
+    "Conceptualized, researched and published 3 papers on 3D neural ray intersection fields (third paper pending).",
     "Worked as Assignment Coordinator, teaching introductory and advanced graphics and visualization using OpenGL (TDT4195/TDT4230).",
 ]
-summary = ""
+summary = "The Norwegian University of Science and Technology (NTNU) is a public research university in Norway and the largest in terms of enrollment."
+
 
 #[[work]]
 #name = "NDC TechTown"
@@ -71,7 +73,7 @@ summary = ""
 [[work]]
 name = "Uninett"
 url = "https://uninett.no"
-position = "Intern, part-time Systems Developer"
+position = "Summer Intern, then part-time Systems Developer"
 description = "Internship"
 location = "Trondheim, NO"
 startDate = "2019-06"
@@ -85,7 +87,7 @@ summary = "Uninett is the company responsible for Norway's National Research and
 [[work]]
 name = "Arm Norway"
 url = "https://careers.arm.com/norway-trondheim-office"
-position = "Intern"
+position = "Summer Intern, CI"
 description = "Internship"
 location = "Trondheim, NO"
 startDate = "2018-06"
@@ -98,7 +100,7 @@ summary = "Arm Norway works with Arm' Cambridge and Austin design centres to dev
 [[work]]
 name = "Telenor Digital"
 url = "https://telenordigital.com"
-position = "Web developer Intern"
+position = "Summer Intern, Web development"
 description = "Internship"
 location = "Trondheim, NO"
 startDate = "2017-06"
@@ -115,10 +117,10 @@ endDate = "2021-10"
 organization = "Programvareverkstedet (PVV)"
 url = "http://pvv.ntnu.no/"
 position = "Board Member, Chair Person and Operations Coordinator"
-summary = "Student organisation for those with interest in computers"
+summary = "A Student organisation for those with interest in computers"
 highlights = [
-  "Chair person for 1 year, from Oct 2016 to 2017",
-  "Board member 1 year prior and a half year following.",
+  "Board member from 2015 to 2018",
+  "Chair person from 2016 to 2017",
   "Operations coordinator for 6 years",
 ]
 
@@ -135,7 +137,7 @@ endDate = "2021-06"
 institution = "Norwegian University of Science and Technology (NTNU)"
 score = "A on thesis, B overall"
 url = "//www.ntnu.edu/"
-# highlights = [ "Worked as Teaching Assistant in C++ (TDT4102) for 3 years." ]
+# highlights = [ "Worked as Teaching Assistant in C++ (TDT4102) Spring 2017, 2018 and 2019." ]
 # summary = "Started in telematics, switched to algorithms and graphics, wrote thesis on machine learning."
 
 [[awards]]
@@ -161,20 +163,62 @@ url = "https://doi.org/10.1016/j.cag.2023.06.032"
 
 # https://web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt
 
+# levels: beginner, intermediate, advanced, master
 [[skills]]
-keywords = [ "Nix", "Bash", "GnuMake", "Python" ]
+name = "Software Packaging"
+keywords = [ "Nix", "Bash", "Linux" ]
 level = "Master"
-name = "Package management"
 
 [[skills]]
-keywords = [ "PyTorch", "COLMAP", "Trimesh" ]
+name = "Machine learning - 3D Neural Fields"
+keywords = [ "Python", "PyTorch", "COLMAP", "Trimesh" ]
 level = "Master"
-name = "Machine learning - Neural Fields"
 
 [[skills]]
-keywords = [ "C++", "Rust", "OpenGL" ]
-level = "Intermediate"
 name = "Graphics Development"
+keywords = [ "C++", "Rust", "OpenGL", "GLSL" ]
+level = "Advanced"
+
+[[skills]]
+name = "System Administration"
+keywords = [ "NixOS", "Arch", "Debian", "FreeBSD", "SaltStack", "Docker", "VMWare", "ZFS", "Samba", "Kerberos", "Tailscale" ]
+level = "Advanced"
+
+[[skills]]
+name = "Web Development"
+keywords = [ "Nginx", "FastAPI", "Jinja2", "OpenAPI", "HTML", "CSS", "Bootstrap", "Tailwind", "PostgreSQL", "TimescaleDB" ]
+level = "Intermediate"
+
+[[skills]]
+name = "System Development"
+keywords = [ "C++", "C#", "Java" ]
+level = "Intermediate"
+
+[[skills]]
+name = "Teaching / Hosting Workshops"
+keywords = [ "TDT4230", "TDT4102", "NDC TechTown 2022/2023", "Sintef 2018/2020" ]
+level = "intermediate"
+
+[[skills]]
+name = "Live Audio"
+keywords = [ "RørosLyd", "Midas Pro" ]
+level = "Intermediate"
+
+[[skills]]
+name = "Diagrams-as-code"
+keywords = [ "GraphViz", "LateX / tikz", "Typst / cetz", "Mermaid / Gantt" ]
+level = "intermediate"
+
+[[skills]]
+name = "Hardware Design"
+keywords = [ "Yosys", "NextPNR", "Vivado", "Chisel3", "Amaranth" ]
+level = "Beginner"
+
+[[skills]]
+name = "Game Development"
+keywords = [ "Pygame", "Panda3D", "OpenGL", "Game Maker", "Unity", "OpenXR" ]
+level = "Beginner"
+
 
 [[languages]]
 language = "Norwegian"
