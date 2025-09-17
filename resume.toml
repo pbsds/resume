@@ -141,6 +141,7 @@ area = "Computer Science"
 courses = [
   "TDT4900 - Computer Science, Master's Thesis",
   "TDT4295 - Computer Design Project",
+  "TDT4230 - Graphics & Visualization",
 ]
 startDate = "2015-08"
 endDate = "2021-06"
@@ -159,14 +160,14 @@ summary = "MARF: The Medial Atom Ray Field Object Representation"
 [[publications]]
 name = "Towards multi-view consistency in neural ray fields using parametric medial surfaces"
 publisher = "Computers & Graphics Vol 123"
-releaseDate = "2024-10-01"
+releaseDate = "2024-10"
 summary = "A novel neural ray intersection field which improves multi-view consistency by limiting the degrees-of-freedom in a dual shape reconstruction domain."
 url = "https://doi.org/10.1016/j.cag.2024.103991"
 
 [[publications]]
 name = "MARF: The Medial Atom Ray Field Object Representation"
 publisher = "Computers & Graphics Vol 115"
-releaseDate = "2023-10-01"
+releaseDate = "2023-10"
 summary = "A novel neural ray-based 3D shape representation enabling order of magnitude faster differentiable surface rendering."
 url = "https://doi.org/10.1016/j.cag.2023.06.032"
 
