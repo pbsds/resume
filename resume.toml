@@ -7,7 +7,7 @@ label = "Programmer, Researcher"
 name = "Peder Bergebakken Sundt"
 #phone = "(+47) "
 summary = """\
-    Peder is a Norwegian pythonista with an early start and wide interest in computing, including machine learning, graphics, networking, systems development, reproducible package management and builds, and declarative system configuration and deployment. \
+    Peder is a Norwegian pythonista with an early start and wide interest in computing, including machine learning, 3D graphics, networking, reverse engineering, systems development, reproducible package management and builds, and declarative system configuration and deployment. \
     He is currently researching neural fields at NTNU, and regularly submits tweaks and fixes to various open source projects. \
 """
 url = "https://pbsds.net"
@@ -21,34 +21,44 @@ url = "https://pbsds.net"
 
   [[basics.profiles]]
   network = "GitHub"
-  url = "//github.com/pbsds"
+  url = "https://github.com/pbsds"
   username = "pbsds"
 
   [[basics.profiles]]
   network = "LinkedIn"
-  url = "//www.linkedin.com/in/peder-bergebakken-sundt-181a4b94/"
+  url = "https://www.linkedin.com/in/peder-bergebakken-sundt-181a4b94/"
   username = "Peder B. Sundt"
 
   # [[basics.profiles]]
   # network = "Twitter"
-  # url = "//twitter.com/pederpbsds"
+  # url = "https://twitter.com/pederpbsds"
   # username = "pederpbsds"
 
   [[basics.profiles]]
   network = "Mastodon"
-  url = "//snabelen.no/@pbsds"
+  url = "https://snabelen.no/@pbsds"
   username = "@pbsds@snabelen.no"
+
+  [[basics.profiles]]
+  network = "ORCID"
+  url = "https://orcid.org/0009-0008-7141-9489"
+  username = "ORCID"
+
+  [[basics.profiles]]
+  network = "NTNU Open"
+  url = "https://ntnuopen.ntnu.no/ntnu-xmlui/browse?value=Sundt,%20Peder%20Bergebakken&type=author"
+  username = "NTNU Open"
 
 
 [[work]]
 name = "Norwegian University of Science and Technology (NTNU)"
-# url = "//www.ntnu.edu/"
-url = "//www.ntnu.edu/employees/peder.b.sundt"
+# url = "https://www.ntnu.edu/"
+url = "https://www.ntnu.edu/employees/peder.b.sundt"
 position = "PhD Candidate"
 description = "Researcher"
 location = "Trondheim, NO"
 startDate = "2021-08"
-endDate = "2025-09"
+# endDate = "2025-09"
 highlights = [
     "Conceptualized, researched and published 3 papers on 3D neural ray intersection fields (third paper pending).",
     "Worked as Assignment Coordinator, teaching introductory and advanced graphics and visualization using OpenGL (TDT4195/TDT4230).",
@@ -58,7 +68,7 @@ summary = "The Norwegian University of Science and Technology (NTNU) is a public
 
 #[[work]]
 #name = "NDC TechTown"
-#url = "//web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt"
+#url = "https://web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt"
 #position = "Workshop Holder"
 #description = "Speaker"
 #location = "Kongsberg, NO"
@@ -136,7 +146,7 @@ startDate = "2015-08"
 endDate = "2021-06"
 institution = "Norwegian University of Science and Technology (NTNU)"
 score = "A on thesis, B overall"
-url = "//www.ntnu.edu/"
+url = "https://www.ntnu.edu/"
 # highlights = [ "Worked as Teaching Assistant in C++ (TDT4102) Spring 2017, 2018 and 2019." ]
 # summary = "Started in telematics, switched to algorithms and graphics, wrote thesis on machine learning."
 
@@ -164,10 +174,6 @@ url = "https://doi.org/10.1016/j.cag.2023.06.032"
 # https://web.archive.org/web/20231016205130/https://ndctechtown.com/speakers/peder-bergebakken-sundt
 
 # levels: beginner, intermediate, advanced, master
-[[skills]]
-name = "Software Packaging"
-keywords = [ "Nix", "Bash", "Linux" ]
-level = "Master"
 
 [[skills]]
 name = "Machine learning - 3D Neural Fields"
@@ -175,18 +181,18 @@ keywords = [ "Python", "PyTorch", "COLMAP", "Trimesh" ]
 level = "Master"
 
 [[skills]]
-name = "Graphics Development"
+name = "3D Graphics"
 keywords = [ "C++", "Rust", "OpenGL", "GLSL" ]
 level = "Advanced"
 
 [[skills]]
-name = "System Administration"
-keywords = [ "NixOS", "Arch", "Debian", "FreeBSD", "SaltStack", "Docker", "VMWare", "ZFS", "Samba", "Kerberos", "Tailscale" ]
+name = "System Administration and Software Deployment"
+keywords = [ "Nix/NixOS", "Arch", "Debian", "FreeBSD", "SaltStack", "Docker", "VMWare", "ZFS" ]
 level = "Advanced"
 
 [[skills]]
-name = "System Development"
-keywords = [ "Python", "C++", "C#" ]
+name = "Software Development"
+keywords = [ "Python", "C++", "C#", "Java" ]
 level = "Advanced"
 
 [[skills]]
@@ -206,7 +212,7 @@ level = "Intermediate"
 
 [[skills]]
 name = "Diagrams-as-code"
-keywords = [ "GraphViz", "LateX / tikz", "Typst / cetz", "Mermaid / Gantt" ]
+keywords = [ "GraphViz", "LaTeX / TikZ", "Typst / CeTZ", "Mermaid / Gantt" ]
 level = "intermediate"
 
 [[skills]]
@@ -214,10 +220,10 @@ name = "Hardware Design"
 keywords = [ "Yosys", "NextPNR", "Vivado", "Chisel3", "Amaranth" ]
 level = "Beginner"
 
-[[skills]]
-name = "Game Development"
-keywords = [ "Pygame", "Panda3D", "OpenGL", "Game Maker", "Unity", "OpenXR" ]
-level = "Beginner"
+# [[skills]]
+# name = "Game Development"
+# keywords = [ "Pygame", "Panda3D", "OpenGL", "Game Maker", "Unity", "OpenXR" ]
+# level = "Beginner"
 
 
 [[languages]]
@@ -230,27 +236,27 @@ fluency = "Fluent"
 
 [[interests]]
 name = "Free Software"
-keywords = [ "Linux", "Software Freedom", "NixOS", "FreeBSD", "ZFS", "Reproducible Builds" ]
+keywords = [ "Linux", "Software Freedom", "Python", "Nix", "FreeBSD", "ZFS" ]
 
 [[interests]]
 name = "IRL"
-keywords = [ "Bouldering", "Kayaking", "Movies", "Cabin trips", "Beer", "Board games" ]
+keywords = [ "Board games", "Bouldering", "Kayaking", "Movies", "Craft Beer", "Cabin trips" ]
 
 #[[references]]
 #name = "Erlich Bachman"
 #reference = "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
 
 [[projects]]
-name = "NixOS/nixpkgs contributor"
-entity = "NixOS"
+name = "NixOS/nixpkgs"
+entity = "NixOS Foundation"
 url = "https://github.com/NixOS/nixpkgs"
 description = "Has authored, maintained, and reviewed many contributions to NixOS/nixpkgs since 2022."
-keywords = ["Operating systems", "Package Management"]
-roles = ["Code Reviewer", "Developer", "Package maintainer", "User"]
+# keywords = ["Operating systems", "Package Management"]
+roles = ["Code Reviewer", "Developer", "Maintainer"]
 type = "maintainer"
 highlights = [
-    "Received commit access in 2023",
-    "6000+ commits",
+    "Joined in 2022, received commit access in 2023",
+    "6000+ commits, 72% merge commits",
 ]
 #startDate = "2016-08-24"
 #endDate = "2016-08-24"
